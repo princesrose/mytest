@@ -1,2 +1,2 @@
 # mytest
-private study test
+study test
