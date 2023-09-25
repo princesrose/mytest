@@ -127,7 +127,7 @@ void System_jdt(void)
 	for (i = 1; i <= 50; ++i)
 	{
 		buf[i] = '#';
-		printf("%s[%d%][%c]\r", buf, i*2, sym[i % 4]);
+		printf("%s[%d%%][%c]\r", buf, i*2, sym[i % 4]);
 		fflush(stdout);
 		usleep(80000);
 	}
